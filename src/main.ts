@@ -66,3 +66,42 @@ const c1 = new C('5.6','Chaitanya Vardhan', 100, 'macbook air', 'TypeScript')
 c1.height
 console.log(c1)
 // A 'super' call must be the first statement in the constructor to refer to 'super' or 'this' when a derived class contains initialized properties, parameter properties, or private 
+
+// interface OutputElem {
+//     [key: string]:[value:string] 
+// }
+// async function getPage(offset) {
+//     const baseUrl = 'api.xyx.com/v1'
+//     const response = await fetch(`${baseUrl}/comments`, {
+//         method: 'POST',
+//         headers: {
+//             Authrization: 
+//         }
+//     })
+//     if (!response.ok) {
+//         const errorMsg = await response.text()
+//     }
+//     const responseJson = await response.json()
+//     return {
+//         offset: offset + 100,
+//         next: responseJson._metadata.next,
+//         data: responseJson.data
+//     }
+
+// }
+
+// async function getAllPages(currEntities, offset: number | undefined = undefined) {
+//     const page =  await getPage(offset)
+//     const allEntities = [...page.data, ...currEntities]
+
+//     if (page.next !== null) {
+//         getAllPages(getPage, allEntities, startOffset)
+//     }
+//     return allEntities
+// }
+
+// const echo = <T>(input: T): output:T => {
+//     console.log(echo)
+
+// }
+console.log('hi')
